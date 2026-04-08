@@ -4,14 +4,14 @@ A = input("What is Your name? ")
 Pin = int(input("Type in your pin: "))
 Balance = 10000
 if A == "Jojo":
-    print("Ahhhh, youre namesakes with the owner")
+    print("Ahhhh, you're namesakes with the owner")
     Balance = 100000
 def options():
     print("1: View Balance")
     print("2: Withdraw Money")
     print("3: Deposit Money")
     print("4: Exit")
-while True:
+while:
     options()
     Reason = input("Okay "+ A + " What brings you here today? ")
     if Reason == "1":
